@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="ajax.js"></script>
+    <script>
+        $http('GET','https://api.myjson.com/bins/acnru',null,function (response) {
+            console.log(response)
+        },function (failed) {
+            console.log(failed)
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
